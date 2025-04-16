@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name":" AB01 Antique Brass",
+        "price": 20000,
+        "image": "AntiqueBrass3.jpg"
+    },
+    {
+        "id": 2,
+        "name":" AB02 Antique Brass",
+        "price": 25000,
+        "image": "AntiqueBrass7.jpg"
+    },
+
+    {
+        "id": 3,
+        "name":" C01 Contemporary",
+        "price": 30000,
+        "image": "Contemporary4.jpg"
+    },
+    
+    {
+        "id": 4,
+        "name":" MC01 ModernCrystal",
+        "price": 35000,
+        "image": "ModernCrystal12.jpg"
+    },
+    {
+        "id": 5,
+        "name":" RD01 Raindrop",
+        "price": 45000,
+        "image": "Raindrop1.jpg"
+    },
+    {
+        "id": 6,
+        "name":" RD02 Raindrop",
+        "price": 50000,
+        "image": "Raindrop3.jpg"
+    },
+    {
+        "id": 7,
+        "name":" RD03 Raindrop",
+        "price": 55000,
+        "image": "Raindrop5.jpg"
+    },
+    {
+        "id": 8,
+        "name":" RD04 Raindrop",
+        "price": 27800,
+        "image": "Raindrop9.jpg"
+    },
+    {
+        "id": 9,
+        "name":" SF01 SemiFlush",
+        "price": 75000,
+        "image": "SemiFlush1.jpg"
+    },
+    {
+        "id": 10,
+        "name":" SF02 SemiFlush",
+        "price": 67000,
+        "image": "SemiFlush3.jpg"
+    },
+    {
+        "id": 11,
+        "name":" SF03 SemiFlush",
+        "price": 75000,
+        "image": "SemiFlush4.jpg"
+    },
+    {
+        "id": 12,
+        "name":" SF04 SemiFlush",
+        "price": 87000,
+        "image": "SemiFlush6.jpg"
+    },
+    {
+        "id": 13,
+        "name":" S01 Spiral",
+        "price": 77000,
+        "image": "Spiral1.jpg"
+    },
+    {
+        "id": 14,
+        "name":" S02 Spiral",
+        "price": 67000,
+        "image": "Spiral2.jpg"
+    },
+    {
+        "id": 15,
+        "name":" S03 Spiral",
+        "price": 70000,
+        "image": "Spiral3.jpg"
+    },
+    {
+        "id": 16,
+        "name":" S04 Spiral",
+        "price": 45000,
+        "image": "Spiral8.jpg"
+    }
+]

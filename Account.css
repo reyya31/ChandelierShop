@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --primary-color: #254d4d;
+    --text-dark: #171717;
+    --text-light: #737373;
+    --extra-light: #f4f6f5;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --header-font: "Merriweather", serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--extra-light);
+    color: var(--text-dark);
+}
+
+.account-section {
+    width: 100%;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.modal-tabs {
+    margin-bottom: 2rem;
+}
+
+.tab-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: var(--white);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    margin: 0 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tab-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.login-box, .signup-box {
+    width: 360px;
+    margin: auto;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Add this for the signup form specific styling */
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* For the login form */
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-box {
+    width: 360px;
+    margin: auto;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box p {
+    font-size: 14px;
+    color: var(--text-light);
+    margin: 1rem 0;
+}
+
+.signup-box p a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.signup-box p a:hover {
+    text-decoration: underline;
+}
+
+/* Rest of your existing CSS... */
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+form {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left; /* Ensure labels are left-aligned */
+    font-weight: 500; /* Slightly bolder for better readability */
+    color: var(--primary-color); /* Darker color for labels */
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+input[type="button"] {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+input[type="button"]:hover {
+    background-color: #1a3d3d;
+}
+
+.para-2 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.para-2 a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.para-2 a:hover {
+    text-decoration: underline;
+}
+
+/* Hide signup form initially */
+.signup-box {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .login-box, .signup-box {
+        width: 100%;
+        padding: 1.5rem;
+    }
+}
